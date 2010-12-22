@@ -177,7 +177,7 @@
 			
 				[self sendMidi:channelValue]; // Send the changed Midi value
 				lastValue = channelValue; 
-				// TODO: Set lastDMXValue when changed
+				[lastDMXValue setIntValue:channelValue];
 			}
 				   
 		}
