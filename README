@@ -1,0 +1,1 @@
+ArtnetToMidi - A program that translates Artnet packets on a specific Universe and Channel to MIDI noteOn data. Currently it is in Alpha with just the basic features. Currenty it has been tested with ProVideoPlayer and MIDI Monitor.  In this version the MIDI output is limited to a virtual interface on the localhost.
